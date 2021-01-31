@@ -16,9 +16,9 @@ Mark = 'X'
 #This Function Draws Game Board    
 def DrawBoard():    
     print(" %c | %c | %c " % (board[1],board[2],board[3]))    
-    print("_|_|_")    
+    print("___|___|___")    
     print(" %c | %c | %c " % (board[4],board[5],board[6]))    
-    print("_|_|_")    
+    print("___|___|___")    
     print(" %c | %c | %c " % (board[7],board[8],board[9]))    
     print("   |   |   ")    
    
@@ -57,7 +57,7 @@ def CheckWin():
     else:            
         Game=Running    
     
-print("Tic-Tac-Toe Game Designed By Sourabh Somani")    
+print("Tic-Tac-Toe Game ")    
 print("Player 1 [X] --- Player 2 [O]\n")    
 print()    
 print()    
